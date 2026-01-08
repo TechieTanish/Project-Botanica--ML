@@ -26,3 +26,37 @@ This repository demonstrates a tiny reproducible MLOps flow:
     python src/app.py
    Then test:
     curl -X POST "http://127.0.0.1:5000/predict" -H "Content-Type: application/json" -d '{"features":[5.1,3.5,1.4,0.2]}'
+
+🔗 Blog
+
+👉 Day 2: End-to-End Machine Learning Workflow — ML, ML Engineering, and MLOps
+    {https://tanish-mlops-zero-to-hero.hashnode.dev/day-2-how-ml-ml-engineering-and-mlops-work-together?showSharer=true}
+
+📌 What I Learned Today (In Short)
+
+Understood the difference and collaboration between Data Science, ML Engineering, and MLOps.
+
+Learned how an ML model moves from training → saving → inference → API exposure.
+
+Implemented a Flask-based ML API with /predict and /health endpoints.
+
+Practiced CLI and API inference for the same trained model.
+
+Gained clarity on how MLOps automates workflows using CI/CD to save time and effort.
+
+Revisited model containerization concepts as the first step toward deployment.
+
+🧠 Role Clarity (Quick)
+
+Data Scientist: Builds and trains the model.
+
+ML Engineer: Integrates the model with APIs for application use.
+
+MLOps Engineer: Automates training, testing, and deployment using CI/CD, Docker, and infrastructure tools.
+
+
+🙏 Note
+
+This learning is based on hands-on practice and explanations from Abhishek Sir, with gratitude to divine energy.
+
+@Tanish
